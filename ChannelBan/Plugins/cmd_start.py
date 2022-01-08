@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
-@Client.on_message(filters.command(["start", "start@ChannelBanRobot"]))
+@Client.on_message(filters.command(["start", "start@Alienkill_bot"]))
 async def start(_, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name} 😉️!</b>
@@ -10,15 +10,15 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📢 Cʜᴀɴɴᴇʟ", url="https://t.me/DeeCodeBots"
+                        "📢 Cʜᴀɴɴᴇʟ", url="https://t.me/Alienxsupport"
                     ),
                     InlineKeyboardButton(
-                        "Sᴜᴘᴘᴏʀᴛ 👥", url="https://t.me/DeCodeSupport"
+                        "Sᴜᴘᴘᴏʀᴛ 👥", url="https://t.me/Alienxsupport"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🧑‍💻 Dᴇᴠ 🧑‍💻", url="https://t.me/DeeCodeDevs"
+                        "🧑‍💻 Dᴇᴠ 🧑‍💻", url="https://t.me/Alienxsupport"
                     )
                 ]
             ]
