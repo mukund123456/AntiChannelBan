@@ -9,8 +9,8 @@
         "BrayDenXD",
         "AntiChannelBan"
     ],
-    "repository": "https://GitHub.com/BrayDenXD/AntiChannelBan",
-    "website": "https://GitHub.com/BrayDenXD",
+    "repository": "https://GitHub.com/mukund123456/AntiChannelBan",
+    "website": "https://GitHub.com/mukund123456",
     "success_url": "https://t.me/Decodesupport",
     "env": {
       "BOT_TOKEN": {
